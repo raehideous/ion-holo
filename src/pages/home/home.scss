@@ -1,0 +1,27 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  min-height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #818181;
+
+}
+
+.row {
+  background-color: #818181;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.elem {
+  width: 33.3%;
+  background-color: black;
+  height: 300px;
+}
+
+
